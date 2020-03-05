@@ -1,0 +1,95 @@
+body{
+	margin:0;
+}
+
+nav{
+	background: grey;
+	margin: 0px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(88, 81, 81);
+}
+
+nav li{
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-image: url("./images/talking_heads-speaking_in_tongues.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header section{
+    background-color: rgba(0,0,0,0.8);
+    width: 90%;
+}
+
+body header h1{
+	background: yellow;
+	color: black;
+	padding: 15px;
+    margin:0;
+    text-align: center;
+}
+
+main header section h1{
+    color: yellow;
+    background: none;
+}
+
+main header h2{
+    color:white;
+    width: 200px;
+}
+
+
+
+article aside h2{
+    background-color: yellow; 
+    color: black;
+    padding: 10px;
+}
+
+article aside{
+    font-style: italic;
+    color: white;
+    background-color: gray;
+}
+
+article section h2{
+    background-color: yellow;
+    width: 100px;
+    font-style: italic;
+}
+
+section{
+    padding-left: 45px;
+    border-left: 20px solid yellow;
+}
+section p{
+    font-style: italic;
+    width: 100 px;
+    padding: 15px px;
+}
+
+.chorus{
+    padding-left: 60px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
