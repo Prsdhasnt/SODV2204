@@ -1,12 +1,33 @@
-title{
+h1{
     color: black;
-    font-size: 6em;
-    padding: 10px;
+    font-size: 3em;
+    background-color: gray;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+    
 }
 
 body{
     color: red;
-    align-content: center;
     
-
 }
