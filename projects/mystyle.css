@@ -1,46 +1,73 @@
 
-html{
-    background-color: rgb(45, 45, 45);
-    background-image: url(Champagne.jpg);
-
-}
-
-h1{
-    color: black;
-    font-size: 3em;
-    background-color: rgb(120, 120, 120);
-    text-transform: uppercase;
-}
-
-h2{
+.tasting-room-banner {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 600px;
+    background-image: url("Images/Caviar\ Martini\ Champagne\ Rose.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  .tasting-room-banner h1 {
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 200px;
+    color: white;
+  }
+  
+  .tating-room-section {
+    display: flex;
+  }
+  
+  .tasting-room-section h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .what-we-do {
+    margin: 0px 0px;
+    flex: 3;
+    line-height: 40px;
+    background-color: #eee;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 200;
     text-align: center;
-    text-transform: uppercase;
-}
-
-h3{
+  }
+  
+  .restaurant {
+    margin: 0px 0px;
+    flex: 3;
+    line-height: 40px;
+    background-color: #fff;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 200;
     text-align: center;
-    text-transform: uppercase;
-
-}
-
-
-h4{
+  }
+  
+  .shop {
+    margin: 0px 0px;
+    flex: 3;
+    line-height: 40px;
+    background-color: #eee;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 200;
     text-align: center;
-    text-transform: uppercase;
-}
-
-p{
+  }
+  
+  .tasting-room-section h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .more-info {
+    margin: 0px 0px;
+    line-height: 40px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 200;
     text-align: center;
-    font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    margin-right: 30px;
-    margin-left: 30px;
-    
-    
-}
-
-body{
-    color: red;
-    
-}
+  }
+  /* Tasting room styling ends*/
+  
